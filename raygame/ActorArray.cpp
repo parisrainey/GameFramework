@@ -103,7 +103,7 @@ Actor* ActorArray::getActor(int index)
     if (index < 0 || index >= m_actorCount)
         return nullptr;
     //Return the actor at the given index
-    m_actors[index];
+    return m_actors[index];
 }
 
 bool ActorArray::contains(Actor* actor)
